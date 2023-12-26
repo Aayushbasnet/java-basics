@@ -1,6 +1,7 @@
 package basics;
 
-public class Variable {
+public class PrimitiveDataType {
+    // primitive data types are written in small letters
     public static void main(String[] args){
         int intValue =42;
         short shortInt = 100;
