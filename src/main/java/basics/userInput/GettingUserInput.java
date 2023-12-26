@@ -29,6 +29,7 @@ public class GettingUserInput {
 
                 conversationStatus = false;
             } catch (InputMismatchException error) {
+                userInput.reset();
                 conversationStatus = true;
             }
         } while (conversationStatus);
