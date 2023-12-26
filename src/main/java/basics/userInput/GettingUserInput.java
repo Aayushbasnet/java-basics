@@ -25,7 +25,7 @@ public class GettingUserInput {
 
                 System.out.println("What is your salary?");
                 float userSalary = userInput.nextFloat();
-                System.out.println("Oh! You earn " + userSalary);
+                System.out.println("Oh! Your earning is " + userSalary);
 
                 conversationStatus = false;
             } catch (InputMismatchException error) {
