@@ -7,7 +7,7 @@ public class GettingUserInput {
     public static void main(String[] args) {
         //Scanner class used to get input
         Scanner userInput = new Scanner(System.in); // Create a Scanner object
-        boolean conversationStatus = false;
+        boolean conversationStatus;
         do {
             try {
                 System.out.println("Enter your message: ");
