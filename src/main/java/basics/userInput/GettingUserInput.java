@@ -7,7 +7,7 @@ public class GettingUserInput {
     public static void main(String[] args) {
         //Scanner class used to get input
         Scanner userInput = new Scanner(System.in); // Create a Scanner object
-        boolean conversationStatus;
+        boolean conversationStatus = false;
         do {
             try {
                 System.out.println("Enter your message: ");
@@ -20,16 +20,16 @@ public class GettingUserInput {
                 System.out.println(humanVerificationMessage);
 
                 System.out.println("How old are you?");
-                int userAge = userInput.nextInt();
+                int userAge = userInput.nextInt(); // reads integer value from the user
                 System.out.println("So, you are " + userAge + " old. Hmm...");
 
                 System.out.println("What is your salary?");
-                float userSalary = userInput.nextFloat();
+                float userSalary = userInput.nextFloat(); // reads float value from the user
                 System.out.println("Oh! Your earning is " + userSalary);
 
                 conversationStatus = false;
             } catch (InputMismatchException error) {
-                userInput.reset();
+                userInput = new Scanner(System.in);
                 conversationStatus = true;
             }
         } while (conversationStatus);
