@@ -2,6 +2,6 @@ package assignments.tic_tac_toe_game;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Welcome to the game");
+        System.out.println("Welcome to the tic-tac-toe game");
     }
 }
