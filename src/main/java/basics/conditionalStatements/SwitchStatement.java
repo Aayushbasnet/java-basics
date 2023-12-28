@@ -36,7 +36,6 @@ public class SwitchStatement {
             }catch (Exception error){
                 System.out.println("Error: " + error);
             }
-
         }
 
         // using labeled break statement
