@@ -1,4 +1,4 @@
-package basics.ClassObjectMethodBasics;
+package basics.classObjectMethodBasics;
 
 /* We can have any number of classes for our project but we can only have one public class and one main method for the entry point*/
 
