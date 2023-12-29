@@ -1,5 +1,6 @@
 package basics.packages.src;
 import basics.packages.vehicles.Car;
+import basics.packages.vehicles.Truck;
 
 public class VehicleApplication {
     public static void main(String[] args) {
@@ -9,6 +10,7 @@ public class VehicleApplication {
         float topSpeed = 167.89F;
 
         Car car = new Car();
+
         car.setModel(model);
         System.out.println("Model: " + car.getModel());
 
@@ -20,5 +22,6 @@ public class VehicleApplication {
 
         car.setTopSpeed(topSpeed);
         System.out.println("Top speed: " + car.getTopSpeed() + "km/hr");
+        Truck truck = new Truck();
     }
 }
