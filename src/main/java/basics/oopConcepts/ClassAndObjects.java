@@ -1,4 +1,4 @@
-package basics.classObjectMethodBasics;
+package basics.oopConcepts;
 
 /* We can have any number of classes for our project but we can only have one public class and one main method for the entry point*/
 
@@ -47,7 +47,7 @@ class Person{
      }
 }
 
-public class Objects {
+public class ClassAndObjects {
     public static void main(String[] args) {
         Person person = new Person();
         person.setName("Aayush Basnet");
