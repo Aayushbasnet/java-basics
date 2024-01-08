@@ -1,4 +1,4 @@
-package basics.oopConcepts.constructors.TypesOfConstructor;
+package basics.oopConcepts.constructors;
 
 /*
     Here we can also find the example for constructor overloading which is just like method overloading
@@ -7,6 +7,7 @@ package basics.oopConcepts.constructors.TypesOfConstructor;
 
 /*
     this. is used to set values for local variables where as this() is used to call constructor inside a constructor
+    We cannot call 2 constructors with 1 constructor
  */
 public class TypesOfConstructor {
     String name;
