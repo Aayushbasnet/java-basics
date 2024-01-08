@@ -1,4 +1,4 @@
-package basics.oopConcepts;
+package basics.oopconcepts;
 
 public class ReturnTypesAndMethodParameters {
     // void return type does not return anything.

@@ -1,4 +1,4 @@
-package assignments.tic_tac_toe_game;
+package assignments.tictactoegame;
 
 public class GameBoard {
     // TODO

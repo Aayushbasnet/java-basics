@@ -1,4 +1,4 @@
-package basics.dataTypes;
+package basics.datatypes;
 
 public class NonPrimitiveDataType {
     // non-primitive data types are written in capitalized format

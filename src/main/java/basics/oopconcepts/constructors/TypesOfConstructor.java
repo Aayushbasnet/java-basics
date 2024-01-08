@@ -1,4 +1,4 @@
-package basics.oopConcepts.constructors;
+package basics.oopconcepts.constructors;
 
 /*
     Here we can also find the example for constructor overloading which is just like method overloading

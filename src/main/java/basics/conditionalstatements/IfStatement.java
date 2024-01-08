@@ -1,4 +1,4 @@
-package basics.conditionalStatements;
+package basics.conditionalstatements;
 
 public class IfStatement {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package basics.dataTypes;
+package basics.datatypes;
 
 public class PrimitiveDataType {
     // primitive data types are written in small letters

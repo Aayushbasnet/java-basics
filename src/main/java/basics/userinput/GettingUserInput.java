@@ -1,4 +1,4 @@
-package basics.userInput;
+package basics.userinput;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

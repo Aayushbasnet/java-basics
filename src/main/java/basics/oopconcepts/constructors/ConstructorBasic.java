@@ -1,4 +1,4 @@
-package basics.oopConcepts.constructors;
+package basics.oopconcepts.constructors;
 class ClassWithConstructor{
     int value;
     public ClassWithConstructor(){

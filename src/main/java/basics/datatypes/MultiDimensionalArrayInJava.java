@@ -1,4 +1,4 @@
-package basics.dataTypes;
+package basics.datatypes;
 
 public class MultiDimensionalArrayInJava {
     public static void main(String[] args) {

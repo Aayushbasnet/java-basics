@@ -1,4 +1,4 @@
-package basics.controlFlow;
+package basics.controlflow;
 
 public class WhileLoop {
     public static void main(String[] args) {
