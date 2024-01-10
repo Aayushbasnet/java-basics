@@ -1,4 +1,4 @@
-package basics.staticandfinalbasics.inheritance;
+package basics.oopconcepts.inheritance;
 
 /*
     inheritance: to create hierarchy between classes by inheriting from other classes. We need to use "extend" keyword. We can extend any classes except

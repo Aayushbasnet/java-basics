@@ -37,7 +37,6 @@ public class StaticAndFinalBasics {
         Student.displayFacultyName();
         Student.displayTotalObjectCreatedCount();
 
-
         Student.faculty = "Nursing";
         Student.displayFacultyName();
         System.out.println("Before creating object");

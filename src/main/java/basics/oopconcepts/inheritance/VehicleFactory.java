@@ -1,21 +1,12 @@
-package basics.staticandfinalbasics.inheritance;
+package basics.oopconcepts.inheritance;
 
 public class VehicleFactory {
-    protected String brandSlogan;
     private String brandName;
     private String modelName;
     private String color;
     private int numberOfWheels;
     private double topSpeed;
     private int numberOfGears;
-
-    public VehicleFactory(String brandSlogan){
-        this.brandSlogan = brandSlogan;
-    }
-
-    public String getBrandSlogan(){
-        return this.brandSlogan;
-    }
 
     protected void setBrandName(String brandName){
         this.brandName = brandName;
@@ -60,7 +51,6 @@ public class VehicleFactory {
     }
 
     public void getVehicleInfo(){
-        System.out.println(this.getBrandSlogan());
         System.out.println("Car Information: \n" + " Brand: " + this.getBrandName() + "\n Model: " + this.getModelName()
             + "\n Color: " + this.getColor() + "\n Top speed: " + this.getTopSpeed() + "\n Gear number: " + this.getNumberOfGears()
                 + "\n Wheels: " + this.getNumberOfWheels()
