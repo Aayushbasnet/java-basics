@@ -1,4 +1,4 @@
-package basics.oopconcepts.inheritance;
+package basics.oopconcepts.inheritances;
 
 public class Car extends VehicleFactory {
     private final String brandSlogan;

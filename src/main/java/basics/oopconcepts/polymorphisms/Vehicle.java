@@ -1,4 +1,4 @@
-package basics.oopconcepts.polymorphism;
+package basics.oopconcepts.polymorphisms;
 
 public class Vehicle {
     public void design(){

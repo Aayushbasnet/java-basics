@@ -1,4 +1,4 @@
-package basics.oopconcepts.inheritance;
+package basics.oopconcepts.inheritances;
 
 public class VehicleFactory {
     private String brandName;
