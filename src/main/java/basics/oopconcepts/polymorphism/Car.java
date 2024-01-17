@@ -5,10 +5,10 @@ public class Car extends Vehicle{
     public void design() {
         super.design(); // calls design() of vehicle
 
-        System.out.println("The is a overridden design method of class Vehicle");
+        System.out.println("Car: The is a overridden design method of class Vehicle");
     }
 
     public void ride(){
-        System.out.println("Riding the car");
+        System.out.println(" Car: Riding the car");
     }
 }
