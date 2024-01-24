@@ -21,15 +21,15 @@ public class MultipleExceptionHandling {
         try {
             multipleExceptionHandling.start();
         } catch (IOException e) { /* shorthand can be used to catch error example: catch(IOException | ParseException e){}*/
-            throw new RuntimeException(e);
+            System.out.println("Error: " + e);
         } catch (ParseException e) {
-            throw new RuntimeException(e);
+            System.out.println("Error: " + e);
         }
 
         /*
             we need to also be careful of catching exception in order. Example in case of IOException and FileNotFoundException.
             FileNotFoundException must always come before IOException because FileNotFoundException is an IOException.
-            Uncomment code to see error
+            Uncomment the code to see the error
         */
 //        try {
 //            multipleExceptionHandling.end();
@@ -43,7 +43,7 @@ public class MultipleExceptionHandling {
         try {
             multipleExceptionHandling.start();
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            System.out.println("Error: " + e);
         }
     }
 }
