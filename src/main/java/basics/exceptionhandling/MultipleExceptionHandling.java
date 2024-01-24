@@ -4,6 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.ParseException;
 
+// These are also example of checked exception
 public class MultipleExceptionHandling {
     private void start() throws IOException, ParseException{
           throw new IOException("Error"); // throws IOException
