@@ -81,5 +81,6 @@ public class EqualsMethod {
         System.out.println(a==g);
         System.out.print("a.equals(g): ");
         System.out.println(a.equals(g));
+
     }
 }
